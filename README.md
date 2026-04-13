@@ -6,6 +6,9 @@ I've made a archive that forces the NVIDIA overlay.exe to stop through CMD, and 
 How to use:
 
 1-Download and extract the ZIP.
+
 2-Run the .bat file once.
+
 3-It will close the overlay and "install" a shortcut on your desktop for future use.
+
 4-Done! No more restarting your PC.
