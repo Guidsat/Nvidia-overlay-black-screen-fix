@@ -1,13 +1,11 @@
 @echo off
 taskkill /f /im "NVIDIA Overlay.exe" >nul 2>&1
 
-
 if exist "%USERPROFILE%\OneDrive\Desktop" (
     set "DESKTOP_PATH=%USERPROFILE%\OneDrive\Desktop"
 ) else (
     set "DESKTOP_PATH=%USERPROFILE%\Desktop"
 )
-
 set "SHORTCUT_PATH=%DESKTOP_PATH%\KillNVIDIA.lnk"
 set "SCRIPT_FULL_PATH=%~f0"
 set "FOLDER_PATH=%~dp0"
